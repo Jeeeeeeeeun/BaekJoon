@@ -1,6 +1,7 @@
 package day3;
 
-import java.util.Arrays;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Solution_15649_N과M1 {
@@ -9,7 +10,8 @@ public class Solution_15649_N과M1 {
 	static int R;
 	static boolean[] isSelected;
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
+		
 		Scanner sc = new Scanner(System.in);
 		N = sc.nextInt();
 		R = sc.nextInt();
